@@ -7,17 +7,24 @@ export const TOTAL_DAYS = 28
 export const TOTAL_XP = XP_PER_DAY * TOTAL_DAYS // 2800
 
 export const PHASES = [
-  { phase: 1, days: [1, 7],  title: 'Foundations',      description: 'Why design exists, visual principles, tools overview' },
-  { phase: 2, days: [8, 14], title: 'Core skills',       description: 'Track-specific skills' },
-  { phase: 3, days: [15, 21],title: 'Applied practice',  description: 'Real brief scenarios, accessibility, iteration' },
-  { phase: 4, days: [22, 28],title: 'Capstone',          description: 'Build your first portfolio piece' },
+  { phase: 1, days: [1, 7],   title: 'Foundations',     description: 'Why design exists, visual principles, tools overview' },
+  { phase: 2, days: [8, 14],  title: 'Core skills',      description: 'Track-specific skills' },
+  { phase: 3, days: [15, 21], title: 'Applied practice', description: 'Real brief scenarios, accessibility, iteration' },
+  { phase: 4, days: [22, 28], title: 'Capstone',         description: 'Build your first portfolio piece' },
 ] as const
 
 // ─── Pricing constants ────────────────────────────────────────────────────────
 
 export const LAUNCH_PRICE_PHP = 299
 export const REGULAR_PRICE_PHP = 699
-export const LAUNCH_USER_LIMIT = 100  // flip to regular price after this
+export const LAUNCH_USER_LIMIT = 100
+
+// ─── Brand ───────────────────────────────────────────────────────────────────
+
+export const BRAND_NAME = 'Layon Obra'
+export const BRAND_TAGLINE = 'Purposeful work starts here.'
+export const BRAND_EMAIL = 'hello@layonobra.com'
+export const BRAND_DOMAIN = 'layonobra.com'
 
 // ─── Tracks ──────────────────────────────────────────────────────────────────
 
